@@ -1,0 +1,103 @@
+/* activity2.css */
+.activity-page-wrapper {
+  background-color: #d8dee3;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.activity-user-card {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin-top: 50px;
+  width: 380px;
+  text-align: center;
+}
+
+.user-card-header {
+  color: #3e4c63;
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-info-display {
+  background-color: #f7f9fc;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  
+  /* We remove the standard CSS shadow and hover effect. */
+  /* The shadow is now applied dynamically in React. */
+  
+  /* Add transition so the shadow color change is smooth */
+  transition: all 0.3s ease;
+}
+
+.user-full-name {
+  color: #1a2a47;
+  margin-bottom: 6px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.user-status-label {
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.user-input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.profile-text-input {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid #dae1e7;
+  outline: none;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.btn-update {
+  padding: 14px;
+  background-color: #6c6f93;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  flex: 1;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-reset {
+  padding: 14px;
+  background-color: #93636f;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  flex: 1;
+  cursor: pointer;
+  font-weight: 600;
+} 

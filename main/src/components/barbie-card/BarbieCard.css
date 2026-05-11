@@ -1,0 +1,104 @@
+.barbie-card {
+  background: linear-gradient(135deg, #ffffff 0%, #fff0f5 100%);
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ffb6c1;
+}
+
+.barbie-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.2);
+}
+
+.barbie-image-wrapper {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffe4ec;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barbie-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;  /* ✅ shows entire image */
+  transition: transform 0.3s ease;
+}
+
+.barbie-card:hover .barbie-image {
+  transform: scale(1.05);
+}
+
+/* Header */
+.barbie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #ffb6c1;
+  padding-bottom: 8px;
+}
+
+.barbie-title {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #e91e63;
+  font-weight: 600;
+}
+
+.barbie-rating {
+  font-size: 0.9rem;
+  color: #f59e6b;
+  font-weight: bold;
+}
+
+/* Description */
+.barbie-description {
+  margin: 12px 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Meta info */
+.barbie-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 0.8rem;
+  color: #c2185b;
+  background: #ffe4ec;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.meta-item {
+  font-weight: 500;
+}
+
+/* Genres */
+.barbie-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.genre-tag {
+  background: #f48fb1;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}

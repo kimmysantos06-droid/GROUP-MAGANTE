@@ -1,0 +1,124 @@
+{
+  "barbie_list": [
+    {
+      "id": 1,
+      "title": "Barbie in the Nutcracker",
+      "description": "Barbie stars as Clara in this magical adaptation of the classic ballet about a young girl who embarks on an adventure to save her beloved nutcracker.",
+      "year": 2001,
+      "genres": ["Fantasy", "Musical"],
+      "Duration": 81,
+      "rating": 7.6,
+      "image": "/images/barbie-nutcracker.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Barbie as Rapunzel",
+      "description": "Barbie plays Rapunzel, a young artist who uses a magical paintbrush to break a spell and find her true love.",
+      "year": 2002,
+      "genres": ["Fantasy", "Romance"],
+      "Duration": 84,
+      "rating": 7.4,
+      "image": "/images/barbie-rapunzel.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Barbie of Swan Lake",
+      "description": "Barbie stars as Odette, a young baker who discovers she is destined to break a spell and save a magical forest.",
+      "year": 2003,
+      "genres": ["Fantasy", "Musical"],
+      "Duration": 83,
+      "rating": 7.5,
+      "image": "/images/barbie-swan-lake.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Barbie as the Princess and the Pauper",
+      "description": "Barbie stars as both Princess Anneliese and poor seamstress Erika who swap places and discover that true royalty comes from within.",
+      "year": 2004,
+      "genres": ["Musical", "Adventure"],
+      "Duration": 85,
+      "rating": 8.0,
+      "image": "/images/barbie-princess-pauper.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Barbie: Fairytopia",
+      "description": "Barbie plays Elina, a fairy with no wings who embarks on a journey to save her home from an evil fairy.",
+      "year": 2005,
+      "genres": ["Fantasy", "Adventure"],
+      "Duration": 71,
+      "rating": 7.2,
+      "image": "/images/barbie-fairytopia.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Barbie and the Magic of Pegasus",
+      "description": "Barbie plays Princess Annika who rides a winged horse to defeat a wizard and save her kingdom.",
+      "year": 2005,
+      "genres": ["Fantasy", "Adventure"],
+      "Duration": 85,
+      "rating": 7.3,
+      "image": "/images/barbie-pegasus.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Barbie in the 12 Dancing Princesses",
+      "description": "Barbie stars as Princess Genevieve who, along with her 11 sisters, discovers a magical world that helps them stand up to their strict aunt.",
+      "year": 2006,
+      "genres": ["Fantasy", "Musical"],
+      "Duration": 83,
+      "rating": 7.7,
+      "image": "/images/barbie-12-dancing.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Barbie as the Island Princess",
+      "description": "Barbie plays Ro, a shipwrecked girl raised by animals who discovers her royal heritage and learns to follow her heart.",
+      "year": 2007,
+      "genres": ["Musical", "Romance"],
+      "Duration": 86,
+      "rating": 7.5,
+      "image": "/images/barbie-island-princess.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Barbie: Mariposa and Her Butterfly Fairy Friends",
+      "description": "Barbie plays Mariposa, a bookish fairy who goes on a mission to save her queen and discovers her inner strength.",
+      "year": 2008,
+      "genres": ["Fantasy", "Adventure"],
+      "Duration": 75,
+      "rating": 7.1,
+      "image": "/images/barbie-mariposa.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Barbie and the Diamond Castle",
+      "description": "Barbie and her best friend tell a story of two best friends whose friendship is tested by jealousy but prevails through music and loyalty.",
+      "year": 2008,
+      "genres": ["Fantasy", "Musical"],
+      "Duration": 79,
+      "rating": 7.3,
+      "image": "/images/barbie-diamond-castle.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Barbie: A Christmas Carol",
+      "description": "Barbie stars as Eden Starling, a selfish singer in Victorian London who learns the true meaning of Christmas.",
+      "year": 2008,
+      "genres": ["Holiday", "Musical"],
+      "Duration": 78,
+      "rating": 7.4,
+      "image": "/images/barbie-christmas-carol.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Barbie: The Princess & The Popstar",
+      "description": "Barbie stars as both Princess Tori and popstar Keira who magically swap identities and learn that being true to yourself is the key to happiness.",
+      "year": 2012,
+      "genres": ["Musical", "Comedy"],
+      "Duration": 76,
+      "rating": 7.5,
+      "image": "/images/barbie-princess-popstar.jpg"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+.activity4-container {
+  background-color: #ffe4ec;
+  max-width: 1400px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+  cursor: pointer;
+}
+
+.activity4-title {
+  text-align:  center;
+  font-size: 3rem;
+  color: #e91e63;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(141, 21, 95, 0.445);
+}
+
+.barbie-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 28px;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+.skeleton {
+  background: linear-gradient(135deg, #f8f8f8 0%, #ececec 100%);
+  border: 1px solid #ffb6c1;
+  pointer-events: none;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.skeleton-image {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.skeleton-title {
+  width: 70%;
+  height: 20px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-rating {
+  width: 45px;
+  height: 20px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-description {
+  width: 100%;
+  height: 65px;
+  margin: 12px 0;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+.skeleton-meta {
+  background: #f0f0f0 !important;
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.skeleton-text {
+  width: 60px;
+  height: 14px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-genre {
+  width: 70px;
+  height: 28px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 20px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.offline-banner {
+  text-align: center;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 600px;
+  font-weight: 500;
+  border: 1px solid #ffeeba;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeIn 0.3s ease;
+}
+
+/* ===== ERROR MESSAGE & RETRY BUTTON ===== */
+.error-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e91e63;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.retry-button {
+  background: linear-gradient(135deg, #e91e63, #c2185b);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.retry-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
+}
+
+.retry-button:active {
+  transform: translateY(0);
+}
+
+/* ===== NO DATA MESSAGE ===== */
+.no-data {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #c2185b;
+  padding: 50px;
+  background: white;
+  border-radius: 16px;
+  margin: 30px auto;
+  max-width: 400px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 768px) {
+  .activity4-title {
+    font-size: 1.8rem;
+  }
+
+  .barbie-grid {
+    gap: 16px;
+    padding: 0 12px;
+  }
+
+  .offline-banner {
+    font-size: 0.9rem;
+    padding: 10px;
+    margin: 8px auto;
+  }
+
+  .error-message {
+    font-size: 1rem;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 90%;
+  }
+
+  .retry-button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+
+  .no-data {
+    font-size: 1.1rem;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+}

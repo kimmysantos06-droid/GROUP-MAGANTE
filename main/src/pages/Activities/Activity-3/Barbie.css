@@ -1,0 +1,80 @@
+.barbie-container {
+  background-color: #ffe4ec;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: #e91e63;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(141, 21, 95, 0.445);
+}
+
+.barbie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+/* Make all cards identical in size */
+.barbie-list > a {
+  display: block;
+  text-decoration: none;
+  height: 100%; /* Ensure link fills grid cell */
+}
+
+.barbie-list .barbie-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Optional: ensure the card content stretches */
+.barbie-list .barbie-card > * {
+  flex-shrink: 0; /* Prevent shrinking of content areas */
+}
+
+/* Loading and alert states */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e91e63;
+  margin-top: 50px;
+}
+
+.alertText {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e91e63;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .barbie-list {
+    gap: 16px;
+    padding: 0 12px;
+  }
+  .alertText {
+    font-size: 1rem;
+    padding: 30px;
+    max-width: 90%;
+  }
+}
